@@ -28,29 +28,31 @@ Multi-OS & Cross-browser application.
 
 ## Katalon Studio Workflow:
 
-# Initiate:
+## Initiate:
 
 Integral Project Templates: By offering built-in templates for organizing test cases, test suites, object repository, data files and keywords. It makes automation testing very easier for both automation & manual testers.
 Multiple Capabilities: It supports Web, Mobile and API testing on all operating systems.
 Simple Deployment: Easy to integrate with Jenkins, GIT and JIRA with native plug-ins.
 
-# Create:
+## Create:
 
 Automatic Test Generation: Generates scripts automatically using built-in keywords.
 Smart Object Capturing: An advanced recorder detects object properties effectively to maximize recognition.
 
-# Operate:
+## Operate:
 
 Test execution made powerful: Runs test cases or test suites using multiple configurations and data sets.
 Versatility in execution: This tool provides CI integration console with various parameters for remote execution. Runs tests on multiple browsers and operating systems
 
 Flexible failure handling and auto re-execution: Includes run-time rules to automatically handle complex execution flows.
 
-# Report:
+## Report:
 
 Reports available in several formats: With advanced logging, debug data, screenshots and enable automatic mail triggering functionality to the peers.
 
-# Maintain:
+## Maintain:
 
 Intelligent test object maintenance: Automatically updates all the associated test files and suites when objects are changed.
 Efficient test organization: Allows easy management and maintenance of tests, data and keywords.
+
+https://software-testing-made-lifeeasy.blogspot.com/p/contact-us_14.html
