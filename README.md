@@ -25,3 +25,32 @@ Multi-OS & Cross-browser application.
 6. Extend current CI flow easily with console mode execution with no efforts. Executing command line can be generated quickly using 'Generate Command Line for console mode' feature by clicking on Build CMD option.
 7. Detailed Test Suite report reducing time in analyzing results. You can export it to the different format such as CSV, PDF, HTML and store it for later use.
 8. Enable automatic mail triggering functionality and customize email template.
+
+## Katalon Studio Workflow:
+
+# Initiate:
+
+Integral Project Templates: By offering built-in templates for organizing test cases, test suites, object repository, data files and keywords. It makes automation testing very easier for both automation & manual testers.
+Multiple Capabilities: It supports Web, Mobile and API testing on all operating systems.
+Simple Deployment: Easy to integrate with Jenkins, GIT and JIRA with native plug-ins.
+
+# Create:
+
+Automatic Test Generation: Generates scripts automatically using built-in keywords.
+Smart Object Capturing: An advanced recorder detects object properties effectively to maximize recognition.
+
+# Operate:
+
+Test execution made powerful: Runs test cases or test suites using multiple configurations and data sets.
+Versatility in execution: This tool provides CI integration console with various parameters for remote execution. Runs tests on multiple browsers and operating systems
+
+Flexible failure handling and auto re-execution: Includes run-time rules to automatically handle complex execution flows.
+
+# Report:
+
+Reports available in several formats: With advanced logging, debug data, screenshots and enable automatic mail triggering functionality to the peers.
+
+# Maintain:
+
+Intelligent test object maintenance: Automatically updates all the associated test files and suites when objects are changed.
+Efficient test organization: Allows easy management and maintenance of tests, data and keywords.
