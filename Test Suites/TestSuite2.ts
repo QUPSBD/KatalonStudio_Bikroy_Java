@@ -17,4 +17,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SearchTest</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b652fed6-62ef-4a7b-9b22-fa2b5f752e28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Category</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9621bf2-bef7-4189-bd77-c4ed7d37e41e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PostAAdd/SellSomething</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47a81d44-1e7e-4755-8d70-e3ca9fc6b0a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MyAccount</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

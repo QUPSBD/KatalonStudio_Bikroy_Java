@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://bikroy.com/')
 
-WebUI.click(findTestObject('Object Repository/LoginFailed/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/button_Accept'))
+WebUI.delay(2)
 
 WebUI.delay(3)
 

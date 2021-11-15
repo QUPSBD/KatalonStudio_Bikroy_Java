@@ -21,11 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://bikroy.com/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/button_Accept'))
+WebUI.delay(2)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/a_Login'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/button_Continue with Email'))
 
@@ -46,6 +48,4 @@ WebUI.click(findTestObject('Object Repository/Login/Page_Bikroy.com - Electronic
 WebUI.click(findTestObject('Object Repository/Login/Page_My Ads - Bikroy.com/h3_ashiq'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_My Ads - Bikroy.com/div_ashiq'), 0)
-
-WebUI.closeBrowser()
 

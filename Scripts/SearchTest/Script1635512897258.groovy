@@ -17,27 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bikroy.com/')
-
-WebUI.click(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/button_Accept'))
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/a_Login'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/span_Continue with Email'))
-
-WebUI.setText(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/input_Order online and get items delivered _34cf3f'), 
-    'ashiq11@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/input_Email_password'), 
-    'RigbBhfdqOCSCzYcP4LkSw==')
-
-WebUI.click(findTestObject('Object Repository/SearchTest/Page_Bikroy.com - Electronics, Cars, Proper_7b12fe/button_Login'))
+WebUI.back()
 
 WebUI.delay(3)
 
@@ -69,8 +51,6 @@ WebUI.click(findTestObject('Object Repository/SearchTest/Page_Dell Laptop in Ban
 WebUI.click(findTestObject('Object Repository/SearchTest/Page_Dell Laptop in Bangladesh  Bikroy.com/span_All_dd-button-icon--1m72e dd-button-ic_f8bcc5'))
 
 WebUI.click(findTestObject('Object Repository/SearchTest/Page_Dell Laptop in Bangladesh  Bikroy.com/div_Dell laptop i3-10 gen newRajshahi, Lapt_527bc8'))
-
-WebUI.click(findTestObject('Object Repository/SearchTest/Page_Dell Laptop in Bangladesh  Bikroy.com/div_Close'))
 
 WebUI.click(findTestObject('Object Repository/SearchTest/Page_Dell laptop i3-10 gen new in Chhota Ba_0c0dac/h1_Dell laptop i3-10 gen new'))
 
