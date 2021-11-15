@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Categories/Page_Bikroy.com - Elect
 
 WebUI.click(findTestObject('Object Repository/Categories/Page_Mobiles and Accessories for Sale in Ba_9e2890/div_Mobiles'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('Categories/Page_Mobiles and Accessories for Sale in Ba_9e2890/div_Mobiles'), 
     0)
