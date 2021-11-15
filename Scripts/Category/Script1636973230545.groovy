@@ -103,6 +103,8 @@ WebUI.click(findTestObject('Object Repository/Categories/Page_Property  Real Est
 WebUI.verifyElementPresent(findTestObject('Categories/Page_Property  Real Estate for Sale and Ren_155c42/div_Property'), 
     0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Categories/Page_Property  Real Estate for Sale and Ren_155c42/button_Post Ad_btn--1gFez default--T8kE3 sm_6f34c8'))
 
 WebUI.click(findTestObject('Object Repository/Categories/Page_Property  Real Estate for Sale and Ren_155c42/a_All ads_gtm-market-logo'))
